@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="joy" name="mobilecontrol" type="joy_node" output="screen" />
+	<node pkg="chr_mobile_proto" name="propulsion" type="propulsion" output="screen" />
+	<node pkg="chr_mobile_proto" name="steering" type="steering" output="screen" />
+
+	<node pkg="chr_mobile_proto" name="rasp" type="rasp" output="screen" />
+</launch>
