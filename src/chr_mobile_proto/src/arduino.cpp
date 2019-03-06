@@ -4,12 +4,10 @@
 #include <unistd.h>
 #include <iostream>
 #include <string>
-#include <cstring>
 #include <cerrno>
+#include <string>
 
 #include "arduino.h"
-
-#include <string>
 
 #define BAUDRATE B9600
 #define ARDUINO_SERIAL_PORT "/dev/ttyACM"
